@@ -25,9 +25,6 @@ window.onload = () => {
     var loadingBar = document.getElementById('loading-bar');
     const currentYear = document.getElementById('current-year');
 
-    console.log("If you're here you probably want to know that newyearloading.com is open source!");
-    console.log("You can get the code at ");
-
     //set current year to current year
     currentYear.innerHTML = today.getFullYear();
     
