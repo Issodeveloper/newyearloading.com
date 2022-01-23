@@ -1,0 +1,55 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background: rgb(255,20,151);
+    background: -moz-linear-gradient(90deg, rgba(255,20,151,1) 0%, rgba(252,70,107,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,20,151,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(90deg, rgba(255,20,151,1) 0%, rgba(252,70,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff1497",endColorstr="#fc466b",GradientType=1);
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+.container{
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.current-year{
+    font-size: 45px;
+}
+
+.loading{
+    background-color: transparent;
+    border: 4px solid black;
+    height: 35px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loading-bar{
+    left: 0px;
+    width: 10px;
+    height: 35px;
+    background-color: royalblue;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
